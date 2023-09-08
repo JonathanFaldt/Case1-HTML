@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <!-- meny för navigering mellan sidor -->
     <nav>
@@ -16,7 +18,62 @@
     </nav>
     <hr>
 
+    <h2>Drömtolkningskonferans</h2>
+
+    <form action="get">
+        <fieldset>
+            <legend>Anmäl dig till drömtolkningskonferans</legend>
+            <label for="email">E-postadress:</label><br>
+            <input type="text" id="email" name="email" value="" required><br>
+            <label for="fname">Förnamn:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">Efternamn:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+
+            <label for="faith">Välj en religion</label>
+            <select id="faith" name="faith">
+                <option value="christian">Kristen</option>
+                <option value="agnostic">agnostiker</option>
+                <option value="atheist">atheist</option>
+                <option value="jew">jude</option>
+                <option value="muslim">muslim</option>
+                <option value="other-religion">annan religion</option>
+            </select>
+            <br>
+            <p>Nedan kan du skriva in din relation till Gud:</p>
+            <textarea name="message" rows="10" cols="30"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
     <!-- sidans innehåll -->
+    <pre><h2>Program</h2>
+      8:30 Registrering
+      
+      9:00 Välkommen
+      
+      9:15 Jonathan Fäldt, Drömmens betydelse kopplat till de heliga skrifterna
+      
+      10:15 Kaffe
+      
+      10:45 Jonathan Fäldt, fortsättning
+      
+      11:15 Jonathan Fäldt, Profetiska drömmar
+      
+      11:45 Lunch
+      
+      12:45 Jonathan Fäldt, fortsättning
+      
+      13:45 Jonathan Fäldt, Världens skapelse
+      
+      14:15 Kaffe
+      
+      14:45 Jonathan Fäldt, fortsättning
+      
+      16:00 Bensträckare
+      
+      16:15 Panel</pre>
 
 </body>
+
 </html>
